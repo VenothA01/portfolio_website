@@ -1,18 +1,25 @@
 {
-  "files": {
-    "main.css": "//portfolio_website/static/css/main.f23c79c5.css",
-    "main.js": "//portfolio_website/static/js/main.ce9b8151.js",
-    "static/js/787.2a910f4f.chunk.js": "//portfolio_website/static/js/787.2a910f4f.chunk.js",
-    "static/media/webdev.svg": "//portfolio_website/static/media/webdev.4d72dbba32efee3890cef9bcacce7aa7.svg",
-    "static/media/cloudBg.png": "//portfolio_website/static/media/cloudBg.f28b5c6961fd82be839c.png",
-    "static/media/cloudDark.png": "//portfolio_website/static/media/cloudDark.51edaa54cabe7b964ae9.png",
-    "index.html": "//portfolio_website/index.html",
-    "main.f23c79c5.css.map": "//portfolio_website/static/css/main.f23c79c5.css.map",
-    "main.ce9b8151.js.map": "//portfolio_website/static/js/main.ce9b8151.js.map",
-    "787.2a910f4f.chunk.js.map": "//portfolio_website/static/js/787.2a910f4f.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.f23c79c5.css",
-    "static/js/main.ce9b8151.js"
-  ]
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
