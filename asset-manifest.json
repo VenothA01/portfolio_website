@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.f23c79c5.css",
-    "main.js": "/portfolio_website/static/js/main.859981bb.js",
+    "main.css": "/portfolio_website/static/css/main.cef4440b.css",
+    "main.js": "/portfolio_website/static/js/main.a2c2c7b9.js",
     "static/js/787.2a910f4f.chunk.js": "/portfolio_website/static/js/787.2a910f4f.chunk.js",
+    "pdf.worker.js": "/portfolio_website/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/Venoth_A_Resume.pdf": "/portfolio_website/static/media/Venoth_A_Resume.20b68ef7bd5f1c2165ac.pdf",
     "static/media/webdev.svg": "/portfolio_website/static/media/webdev.4d72dbba32efee3890cef9bcacce7aa7.svg",
     "static/media/cloudBg.png": "/portfolio_website/static/media/cloudBg.f28b5c6961fd82be839c.png",
     "static/media/cloudDark.png": "/portfolio_website/static/media/cloudDark.51edaa54cabe7b964ae9.png",
     "index.html": "/portfolio_website/index.html",
-    "main.f23c79c5.css.map": "/portfolio_website/static/css/main.f23c79c5.css.map",
-    "main.859981bb.js.map": "/portfolio_website/static/js/main.859981bb.js.map",
+    "main.cef4440b.css.map": "/portfolio_website/static/css/main.cef4440b.css.map",
+    "main.a2c2c7b9.js.map": "/portfolio_website/static/js/main.a2c2c7b9.js.map",
     "787.2a910f4f.chunk.js.map": "/portfolio_website/static/js/787.2a910f4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f23c79c5.css",
-    "static/js/main.859981bb.js"
+    "static/css/main.cef4440b.css",
+    "static/js/main.a2c2c7b9.js"
   ]
 }
