@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_website/static/css/main.cef4440b.css",
-    "main.js": "/portfolio_website/static/js/main.43b988f2.js",
+    "main.js": "/portfolio_website/static/js/main.2e3fa8e2.js",
     "static/js/787.2a910f4f.chunk.js": "/portfolio_website/static/js/787.2a910f4f.chunk.js",
     "pdf.worker.js": "/portfolio_website/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/Venoth_A_Resume.pdf": "/portfolio_website/static/media/Venoth_A_Resume.20b68ef7bd5f1c2165ac.pdf",
@@ -10,11 +10,11 @@
     "static/media/cloudDark.png": "/portfolio_website/static/media/cloudDark.51edaa54cabe7b964ae9.png",
     "index.html": "/portfolio_website/index.html",
     "main.cef4440b.css.map": "/portfolio_website/static/css/main.cef4440b.css.map",
-    "main.43b988f2.js.map": "/portfolio_website/static/js/main.43b988f2.js.map",
+    "main.2e3fa8e2.js.map": "/portfolio_website/static/js/main.2e3fa8e2.js.map",
     "787.2a910f4f.chunk.js.map": "/portfolio_website/static/js/787.2a910f4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cef4440b.css",
-    "static/js/main.43b988f2.js"
+    "static/js/main.2e3fa8e2.js"
   ]
 }
