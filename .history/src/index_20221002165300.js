@@ -8,9 +8,7 @@ import {
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Resume from './views/Resume';
 import reportWebVitals from './reportWebVitals';
-import CV from './assets/Venoth_A_Resume.pdf'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,9 +16,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/portfolio_website">
         <App />
-        </Route>
-        <Route exact path="/CV">
-        <Resume pdf={CV}/>
+
         </Route>
       </Switch>
     </Router>

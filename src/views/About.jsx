@@ -61,6 +61,7 @@ const About = () => {
             {techStack.map((el, index) => (
               <motion.div
                 initial="hidden"
+                key={index}
                 whileInView={"visible"}
                 variants={{
                   visible: {

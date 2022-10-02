@@ -10,17 +10,16 @@ import './index.css';
 import App from './App';
 import Resume from './views/Resume';
 import reportWebVitals from './reportWebVitals';
-import CV from './assets/Venoth_A_Resume.pdf'
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route exact path="/portfolio_website">
+        <Route exact path="/">
         <App />
         </Route>
         <Route exact path="/CV">
-        <Resume pdf={CV}/>
+        <Resume />
         </Route>
       </Switch>
     </Router>

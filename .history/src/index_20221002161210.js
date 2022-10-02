@@ -1,30 +1,12 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Resume from './views/Resume';
 import reportWebVitals from './reportWebVitals';
-import CV from './assets/Venoth_A_Resume.pdf'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Switch>
-        <Route exact path="/portfolio_website">
-        <App />
-        </Route>
-        <Route exact path="/CV">
-        <Resume pdf={CV}/>
-        </Route>
-      </Switch>
-    </Router>
-    
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

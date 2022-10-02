@@ -19,7 +19,7 @@ ReactDOM.render(
         <Route exact path="/portfolio_website">
         <App />
         </Route>
-        <Route exact path="/CV">
+        <Route exact path="/portfolio_website/CV">
         <Resume pdf={CV}/>
         </Route>
       </Switch>

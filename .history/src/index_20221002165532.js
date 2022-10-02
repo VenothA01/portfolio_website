@@ -16,7 +16,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route exact path="/portfolio_website">
+        <Route exact path="/">
         <App />
         </Route>
         <Route exact path="/CV">

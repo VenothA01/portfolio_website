@@ -148,7 +148,7 @@ const Contact = () => {
         }
       >
         Made with
-        <div className="text-red-500 px-2 text-2xl">&#128077;</div>
+        <div className="text-red-500 px-2 text-2xl">&#10084;</div>
         by Venoth A
       </div>
     </div>

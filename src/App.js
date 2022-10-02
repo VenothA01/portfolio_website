@@ -1,25 +1,31 @@
 import { useState, useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Routes,
+  Link,
+} from "react-router-dom";
 import Contact from "./views/Contact";
 import Navbar from "./components/Navbar";
 import About from "./views/About";
-import Home from './views/Home'
+import Home from "./views/Home";
 import Services from "./views/Services";
 import Projects from "./views/Projects";
 import LoadingScreen from "./components/LoadingScreen";
 import { ThemeProvider } from "./themeProvider";
 
 function App() {
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1000)
-  }, [])
+    setTimeout(() => setLoading(false), 1000);
+  }, []);
 
   return (
     <ThemeProvider>
       <>
-
         {!loading ? (
-          <div >
+          <div>
             <Navbar />
             <Home />
             <About />
@@ -27,13 +33,11 @@ function App() {
             <Projects />
             <Contact />
           </div>
-
         ) : (
           <LoadingScreen />
         )}
       </>
     </ThemeProvider>
-
   );
 }
 
